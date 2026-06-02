@@ -13,9 +13,16 @@
 # d = float(input("enter the value of d :"))
 # print("value of PI:",d,sep=" ")
 
-e = input("enter value of e : ")
-x,y,z = e.split(" ")
-sum = int(x) + int(y) + int(z)
-print(sum)
+# # 1. Take a single string input from the user (e.g., "10 20 30")
+# e = input("enter value of e : ") 
+# # 2. Split the string into 3 separate items wherever there is a space
+# # Note: Using .split() without " " is safer as it handles multiple spaces automatically
+# x, y, z = e.split(" ")
+# # 3. Convert each string into an integer so they can be mathematically added
+# total_sum = int(x) + int(y) + int(z)
+# # 4. Display the final result to the user
+# print(total_sum)
 
-
+a = input("enter your name and age ")
+name,age = a.split(",")
+print("Name:",name,",Age:",age,sep="")
