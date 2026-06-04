@@ -7,3 +7,4 @@ c = float("3.14") # converts string to float data type
 print(c) # prints the value of c
 d = str(42) # converts int to string data type
 print(d) #prints the value of d 
+print(type(d))
