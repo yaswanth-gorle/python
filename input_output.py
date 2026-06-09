@@ -9,7 +9,7 @@
 
 # name = input("Enter your name : ")
 # age = int(input("Enter your age :"))
-# print(f"My name is  {name } and i am {age } years old")
+# print(f"My name is  {name } and i am {age } years old")# this prints the output using f string
 
 name = input("enter your name : ")
 age = int(input("enter your age : "))
